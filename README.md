@@ -93,12 +93,6 @@ Both hands use the same chord mapping.
 
 ---
 
-## 📹 Demo
-
-*(You can add a GIF or YouTube demo link here if available)*
-
----
-
 ## 🤝 Credits
 
 - [cvzone by Murtaza Hassan](https://github.com/cvzone/cvzone)
