@@ -1,4 +1,4 @@
-# Air-Piano🎹
+# Air-Piano🎹:
 
 Control MIDI piano chords in real-time using hand gestures captured from your webcam. Each finger is mapped to a chord in the D major scale, and chords play and sustain naturally as you move your fingers.
 
