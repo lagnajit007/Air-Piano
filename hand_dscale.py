@@ -65,11 +65,18 @@ while True:
     # Flip the image horizontally
     img = cv2.flip(img, 1)
 
-    hands, img = detector.findHands(img, draw=True)
+    hands, img = detector.findHands(img, draw=True, flipType=False)  # Set flipType=False since we're flipping manually
+    
+     # Add instructions
+    cv2.putText(img, "Raise fingers to play chords", (10, 80), 
+                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+    cv2.putText(img, "Press 'q' to quit", (10, 120), 
+                cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
 
     if hands:
         for hand in hands:
-            hand_type = "left" if hand["type"] == "Left" else "right"
+            # Flip the hand type since we flipped the image
+            hand_type = "right" if hand["type"] == "Left" else "left"
             fingers = detector.fingersUp(hand)
             finger_names = ["thumb", "index", "middle", "ring", "pinky"]
 
