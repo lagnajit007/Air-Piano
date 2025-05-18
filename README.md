@@ -13,8 +13,9 @@ Control MIDI piano chords in real-time using hand gestures captured from your we
 - 🎼 Chord mapping to fingers in the D major scale, with lower octaves for the left hand
 - 🎹 MIDI output with sustain effect using `pygame.midi`
 - 👏 Supports both left and right hands with distinct octave ranges
-- 🎶 Thread-safe chord transitions to prevent note overlaps
+- 🎶 Thread-safe chord transitions with multi-threading to prevent note overlaps
 - 🚀 Dynamic gesture-based music interaction
+- 🎵 Instrument switching on the fly (press `i`)
 
 ---
 
