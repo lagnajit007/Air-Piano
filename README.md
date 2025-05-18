@@ -1,5 +1,8 @@
 # Air-Piano🎹:
 
+![Air-Piano](https://github.com/user-attachments/assets/e7448271-895e-4a1c-83a6-b0e2e4cf5be3)
+
+
 Control MIDI piano chords in real-time using hand gestures captured from your webcam. Each finger is mapped to a chord in the D major scale, with the left hand playing in a lower octave for a richer sound. Chords play and sustain naturally as you move your fingers, with thread-safe handling to prevent overlapping notes.
 
 ---
